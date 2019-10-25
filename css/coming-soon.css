@@ -12,7 +12,7 @@ body {
     height: 100%;
     min-height: 35rem;
     position: relative;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Pro Code', monospace;
     font-weight: 300;
 }
 
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Merriweather';
+    font-family: 'Merienda', cursive;
     font-weight: 700;
 }
 
@@ -36,6 +36,10 @@ video {
     height: auto;
     transform: translateX(-50%) translateY(-50%);
     z-index: 0;
+}
+
+strong {
+    color: #5DA4B5cc;
 }
 
 @media (pointer: coarse) and (hover: none) {
