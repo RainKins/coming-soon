@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Merriweather;
+    font-family: 'Merienda', cursive;
     font-weight: 700
 }
 
@@ -80,12 +80,17 @@ video {
     transform-origin: bottom right
 }
 
+strong {
+    color: #5DA4B5cc;
+}
+
 .masthead .masthead-content h1 {
     font-size: 2.5rem
 }
 
 .masthead .masthead-content p {
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .masthead .masthead-content p strong {
